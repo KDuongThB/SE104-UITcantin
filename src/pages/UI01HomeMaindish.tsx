@@ -85,11 +85,11 @@ const UI01HomeMaindish: FunctionComponent = () => {
     navigate("/ui02log-in");
   }, [navigate]);
 
-  const onTextLink2Click = useCallback(() => {
+  const onTextLinkClick = useCallback(() => {
     navigate("/ui02log-in");
   }, [navigate]);
 
-  const onTextLink3Click = useCallback(() => {
+  const onTextLink1Click = useCallback(() => {
     navigate("/ui02log-in");
   }, [navigate]);
 
@@ -888,39 +888,33 @@ const UI01HomeMaindish: FunctionComponent = () => {
         </button>
       </div>
       <div className={styles.headerSectionDiv}>
-        <Link className={styles.headerLogoContainer} to="/ui01home-user">
+        <div className={styles.headerLogoContainer}>
           <div className={styles.canteenUITDiv}>Canteen UIT</div>
           <img
             className={styles.footerLogoImage}
             alt=""
-            src="../footer-logo-image@2x.png"
+            src="../header-logo-image@2x.png"
           />
-        </Link>
+        </div>
         <div className={styles.frameDiv}>
           <div className={styles.headerNavigationBar}>
-            <Link className={styles.textA} to="/ui02log-in">
-              <b className={styles.textB5}>Liên hệ</b>
-            </Link>
-            <Link className={styles.textA1} to="/ui02log-in">
-              <b className={styles.textB6}>Đánh giá</b>
+            <b className={styles.textB5}>Liên hệ</b>
+            <b className={styles.textB6}>Đánh giá</b>
+            <Link
+              className={styles.textA}
+              to="/ui02log-in"
+              onClick={onTextLinkClick}
+            >
+              Lịch sử
             </Link>
             <Link
-              className={styles.textA2}
+              className={styles.textA1}
               to="/ui02log-in"
-              onClick={onTextLink2Click}
+              onClick={onTextLink1Click}
             >
-              <b className={styles.textB7}>Lịch sử</b>
+              Thực đơn
             </Link>
-            <Link
-              className={styles.textA3}
-              to="/ui02log-in"
-              onClick={onTextLink3Click}
-            >
-              <b className={styles.textB8}>Thực đơn</b>
-            </Link>
-            <a className={styles.textA4}>
-              <b className={styles.textB9}>Trang chủ</b>
-            </a>
+            <a className={styles.textA2}>Trang chủ</a>
           </div>
           <button
             className={styles.headerShoppingCartButton}
@@ -952,7 +946,7 @@ const UI01HomeMaindish: FunctionComponent = () => {
             onClick={onHeaderSignInButtonClick}
           >
             <button className={styles.button} />
-            <b className={styles.textB10}>Đăng nhập</b>
+            <b className={styles.textB7}>Đăng nhập</b>
           </button>
         </div>
       </div>

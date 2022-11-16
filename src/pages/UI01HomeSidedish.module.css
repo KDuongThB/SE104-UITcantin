@@ -14,14 +14,6 @@
     transform: translateX(-8px) translateY(8px);
   }
 }
-@keyframes scale-up {
-  0% {
-    transform: scale(0.5);
-  }
-  to {
-    transform: scale(1);
-  }
-}
 @keyframes shake-horizontal {
   0%,
   to {
@@ -314,14 +306,21 @@
   position: absolute;
   top: 24.81%;
   left: 32.33%;
+  font-size: var(--font-size-2xl);
   display: inline-block;
+  font-family: var(--font-arial);
+  color: var(--color-white);
+  text-align: left;
 }
 .menuSideDishTab {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-brown);
   position: absolute;
   top: 0;
   left: 312px;
   border-radius: var(--br-sm);
-  background-color: var(--color-brown);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   width: 300px;
   height: 70.45px;
@@ -352,13 +351,16 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   width: 300px;
 }
+.bannerOrderButton:active,
+.menuMainDishTab:active,
+.reccomendationMainDishTab:active {
+  animation: 3s ease-in 0s infinite normal forwards shadow-pop-tr;
+  opacity: 1;
+}
 .menuTabsDiv {
   top: 4px;
   left: 55px;
   width: 612px;
-  text-align: left;
-  font-size: var(--font-size-2xl);
-  color: var(--color-white);
 }
 .menuContainerDiv {
   position: absolute;
@@ -514,7 +516,8 @@
   height: 695px;
   overflow: hidden;
 }
-.reccomendationMainDishTab {
+.reccomendationMainDishTab,
+.reccomendationSideDishTab {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -526,27 +529,8 @@
   height: 70.45px;
   flex-shrink: 0;
 }
-.textB3 {
-  position: absolute;
-  top: 24.81%;
-  left: 32.33%;
-  font-size: var(--font-size-2xl);
-  display: inline-block;
-  font-family: var(--font-arial);
-  color: var(--color-white);
-  text-align: left;
-}
 .reccomendationSideDishTab {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
   background-color: var(--color-brown);
-  position: relative;
-  border-radius: var(--br-sm);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-  width: 300px;
-  height: 70.45px;
-  flex-shrink: 0;
 }
 .recommendationTabsDiv {
   position: absolute;
@@ -665,14 +649,6 @@
   width: 140px;
   height: 34px;
 }
-.bannerOrderButton:hover {
-  animation: 1s ease 0s infinite normal forwards shadow-pop-tr;
-  opacity: 1;
-}
-.bannerOrderButton:active {
-  animation: 1s ease 0s infinite normal none scale-up;
-  opacity: 1;
-}
 .bannerSectionDiv {
   position: absolute;
   top: 117px;
@@ -698,98 +674,60 @@
 }
 .textB5 {
   position: absolute;
-  top: 13.33%;
-  left: -36.59%;
+  top: 0;
+  left: 87.84%;
   display: inline-block;
 }
-.textA {
-  cursor: pointer;
+.textA,
+.textA1 {
   text-decoration: none;
-  top: 0;
-  left: 500px;
-  width: 41px;
-  height: 30px;
+  font-weight: 700;
   color: inherit;
 }
-.textA,
-.textA1,
-.textB6 {
+.textA {
   position: absolute;
-}
-.textB6 {
-  top: 13.33%;
-  left: -53.66%;
+  top: 0;
+  left: 65.24%;
   display: inline-block;
 }
 .textA1 {
+  left: 44.86%;
   cursor: pointer;
-  text-decoration: none;
-  top: 0;
-  left: 375px;
-  width: 41px;
-  height: 30px;
-  color: inherit;
 }
-.textA1:hover,
-.textA2:hover,
-.textA3:hover {
+.textA1:hover {
+  mix-blend-mode: hard-light;
+}
+.textA1:active {
   mix-blend-mode: soft-light;
 }
-.textB7 {
-  top: 13.33%;
-  left: -39.02%;
-  display: inline-block;
-}
+.textA1,
 .textA2,
-.textB7,
-.textB8 {
+.textB6 {
   position: absolute;
+  top: 0;
+  display: inline-block;
 }
 .textA2 {
   cursor: pointer;
   text-decoration: none;
-  top: 0;
-  left: 250px;
-  width: 41px;
-  height: 30px;
+  left: 21.58%;
+  font-weight: 700;
   color: inherit;
 }
-.textB8 {
-  top: 13.33%;
-  left: -65.85%;
-  display: inline-block;
+.textA2:hover {
+  mix-blend-mode: hard-light;
 }
-.textA3 {
-  cursor: pointer;
-  text-decoration: none;
-  top: 0;
-  left: 125px;
-  width: 41px;
-  height: 30px;
-  color: inherit;
+.textA2:active {
+  mix-blend-mode: soft-light;
 }
-.textA3,
-.textA4,
-.textB9 {
-  position: absolute;
-}
-.textB9 {
-  top: 13.33%;
-  left: -68.29%;
-  display: inline-block;
-}
-.textA4 {
-  text-decoration: none;
-  top: 0;
+.textB6 {
   left: 0;
-  width: 41px;
-  height: 30px;
   color: var(--color-brown);
 }
 .headerNavigationBar {
   position: relative;
-  width: 541px;
-  height: 30px;
+  width: 584px;
+  height: 23px;
   flex-shrink: 0;
 }
 .vectorIcon85,
@@ -881,12 +819,15 @@
   animation: 1s ease 0s infinite normal none shake-horizontal;
   opacity: 1;
 }
+.button,
+.textB7 {
+  position: absolute;
+}
 .button {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: var(--color-brown);
-  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -895,8 +836,7 @@
   left: 0;
   border-radius: var(--br-sm);
 }
-.textB10 {
-  position: absolute;
+.textB7 {
   height: 58.82%;
   width: 78.57%;
   top: 20.59%;
@@ -919,12 +859,8 @@
   height: 34px;
   flex-shrink: 0;
 }
-.headerSignInButton:hover {
-  animation: 1s ease 0s infinite normal forwards shadow-pop-tr;
-  opacity: 1;
-}
 .headerSignInButton:active {
-  animation: 1s ease 0s infinite reverse backwards shadow-pop-tr;
+  animation: 3s ease-in 0s infinite normal forwards shadow-pop-tr;
   opacity: 1;
 }
 .frameDiv,

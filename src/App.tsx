@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import UI01HomeMaindish from "./pages/UI01HomeMaindish";
 import UI02LogIn from "./pages/UI02LogIn";
-import UI03Register from "./pages/UI03Register";
+import UI01HomeSidedish from "./pages/UI01HomeSidedish";
 import { useEffect } from "react";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/ui03register":
+      case "/ui01homesidedish":
         title = "";
         metaDescription = "";
         break;
@@ -60,7 +60,7 @@ function App() {
 
       <Route path="/ui02log-in" element={<UI02LogIn />} />
 
-      <Route path="/ui03register" element={<UI03Register />} />
+      <Route path="/ui01homesidedish" element={<UI01HomeSidedish />} />
     </Routes>
   );
 }

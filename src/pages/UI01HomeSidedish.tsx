@@ -85,11 +85,11 @@ const UI01HomeSidedish: FunctionComponent = () => {
     navigate("/ui02log-in");
   }, [navigate]);
 
-  const onTextLink2Click = useCallback(() => {
+  const onTextLink1Click = useCallback(() => {
     navigate("/ui02log-in");
   }, [navigate]);
 
-  const onTextLink3Click = useCallback(() => {
+  const onTextLink2Click = useCallback(() => {
     navigate("/ui02log-in");
   }, [navigate]);
 
@@ -131,7 +131,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -145,7 +145,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector123.svg"
+                  src="../vector90.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -155,7 +155,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector125.svg"
+                  src="../vector92.svg"
                 />
               </button>
             </div>
@@ -169,7 +169,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -183,7 +183,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector123.svg"
+                  src="../vector90.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -193,7 +193,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector125.svg"
+                  src="../vector92.svg"
                 />
               </button>
             </div>
@@ -207,7 +207,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -221,7 +221,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector123.svg"
+                  src="../vector90.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -231,7 +231,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector125.svg"
+                  src="../vector92.svg"
                 />
               </button>
             </div>
@@ -245,7 +245,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -259,7 +259,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector193.svg"
+                  src="../vector105.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -269,7 +269,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector195.svg"
+                  src="../vector107.svg"
                 />
               </button>
             </div>
@@ -283,7 +283,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -297,7 +297,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector193.svg"
+                  src="../vector105.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -307,7 +307,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector195.svg"
+                  src="../vector107.svg"
                 />
               </button>
             </div>
@@ -321,7 +321,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -335,7 +335,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector193.svg"
+                  src="../vector105.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -345,7 +345,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector195.svg"
+                  src="../vector107.svg"
                 />
               </button>
             </div>
@@ -359,7 +359,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -373,7 +373,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector193.svg"
+                  src="../vector105.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -383,7 +383,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector195.svg"
+                  src="../vector107.svg"
                 />
               </button>
             </div>
@@ -397,7 +397,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -411,7 +411,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector193.svg"
+                  src="../vector105.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -421,7 +421,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector195.svg"
+                  src="../vector107.svg"
                 />
               </button>
             </div>
@@ -435,7 +435,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../image9@2x.png"
+                src="../menu-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -449,7 +449,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector193.svg"
+                  src="../vector105.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
@@ -459,15 +459,15 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector195.svg"
+                  src="../vector107.svg"
                 />
               </button>
             </div>
           </div>
           <div className={styles.menuTabsDiv}>
-            <div className={styles.menuSideDishTab}>
+            <button className={styles.menuSideDishTab}>
               <b className={styles.textB}>Món phụ</b>
-            </div>
+            </button>
             <button
               className={styles.menuMainDishTab}
               onClick={onMenuMainDishTabClick}
@@ -507,7 +507,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image22@2x.png"
+                src="../recommendation-dishimage-image8@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -516,22 +516,22 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector222.svg"
+                  src="../vector134.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector223.svg"
+                  src="../vector135.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="../vector224.svg"
+                  src="../vector136.svg"
                 />
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector225.svg"
+                  src="../vector137.svg"
                 />
               </button>
             </div>
@@ -554,7 +554,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image23@2x.png"
+                src="../recommendation-dishimage-image9@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -563,22 +563,22 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector227.svg"
+                  src="../vector139.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector228.svg"
+                  src="../vector140.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="../vector229.svg"
+                  src="../vector141.svg"
                 />
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector230.svg"
+                  src="../vector142.svg"
                 />
               </button>
             </div>
@@ -587,7 +587,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="../vector231.svg"
+                  src="../vector143.svg"
                 />
                 <div className={styles.starDiv} />
                 <b className={styles.number}>5</b>
@@ -596,7 +596,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image24@2x.png"
+                src="../recommendation-dishimage-image10@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -605,22 +605,22 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector232.svg"
+                  src="../vector144.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector233.svg"
+                  src="../vector145.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="../vector234.svg"
+                  src="../vector146.svg"
                 />
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector235.svg"
+                  src="../vector147.svg"
                 />
               </button>
             </div>
@@ -629,7 +629,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="../vector236.svg"
+                  src="../vector148.svg"
                 />
                 <div className={styles.starDiv} />
                 <b className={styles.number}>5</b>
@@ -638,7 +638,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image25@2x.png"
+                src="../recommendation-dishimage-image11@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -647,22 +647,22 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector237.svg"
+                  src="../vector149.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector238.svg"
+                  src="../vector150.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="../vector239.svg"
+                  src="../vector151.svg"
                 />
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector240.svg"
+                  src="../vector152.svg"
                 />
               </button>
             </div>
@@ -671,7 +671,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="../vector241.svg"
+                  src="../vector153.svg"
                 />
                 <div className={styles.starDiv} />
                 <b className={styles.number}>5</b>
@@ -680,7 +680,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image26@2x.png"
+                src="../recommendation-dishimage-image12@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -689,22 +689,22 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector242.svg"
+                  src="../vector154.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector243.svg"
+                  src="../vector155.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="../vector244.svg"
+                  src="../vector156.svg"
                 />
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector245.svg"
+                  src="../vector157.svg"
                 />
               </button>
             </div>
@@ -713,7 +713,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="../vector246.svg"
+                  src="../vector158.svg"
                 />
                 <div className={styles.starDiv} />
                 <b className={styles.number}>5</b>
@@ -722,7 +722,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image27@2x.png"
+                src="../recommendation-dishimage-image13@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -731,22 +731,22 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector247.svg"
+                  src="../vector159.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="../vector248.svg"
+                  src="../vector160.svg"
                 />
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="../vector249.svg"
+                  src="../vector161.svg"
                 />
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector250.svg"
+                  src="../vector162.svg"
                 />
               </button>
             </div>
@@ -755,7 +755,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="../vector251.svg"
+                  src="../vector163.svg"
                 />
                 <div className={styles.starDiv} />
                 <b className={styles.number}>5</b>
@@ -764,7 +764,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image28@2x.png"
+                src="../recommendation-dishimage-image14@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -773,7 +773,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector252.svg"
+                  src="../vector164.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
@@ -783,12 +783,12 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="../vector254.svg"
+                  src="../vector166.svg"
                 />
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector255.svg"
+                  src="../vector167.svg"
                 />
               </button>
             </div>
@@ -797,7 +797,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="../vector256.svg"
+                  src="../vector168.svg"
                 />
                 <div className={styles.starDiv} />
                 <b className={styles.number}>5</b>
@@ -806,7 +806,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.menuDishImageImage}
                 alt=""
-                src="../recommendation-dishimage-image29@2x.png"
+                src="../recommendation-dishimage-image15@2x.png"
               />
               <button
                 className={styles.dishItemCartAddButton}
@@ -815,7 +815,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../vector257.svg"
+                  src="../vector169.svg"
                 />
                 <img
                   className={styles.vectorIcon2}
@@ -830,7 +830,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon4}
                   alt=""
-                  src="../vector260.svg"
+                  src="../vector172.svg"
                 />
               </button>
             </div>
@@ -843,7 +843,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <b className={styles.textB1}>Món chính</b>
             </button>
             <button className={styles.reccomendationSideDishTab}>
-              <b className={styles.textB3}>Món phụ</b>
+              <b className={styles.textB}>Món phụ</b>
             </button>
           </div>
         </div>
@@ -893,34 +893,24 @@ const UI01HomeSidedish: FunctionComponent = () => {
           <img
             className={styles.footerLogoImage}
             alt=""
-            src="../footer-logo-image@2x.png"
+            src="../header-logo-image@2x.png"
           />
         </Link>
         <div className={styles.frameDiv}>
           <div className={styles.headerNavigationBar}>
-            <Link className={styles.textA} to="/ui02log-in">
-              <b className={styles.textB5}>Liên hệ</b>
-            </Link>
-            <Link className={styles.textA1} to="/ui02log-in">
-              <b className={styles.textB6}>Đánh giá</b>
-            </Link>
+            <b className={styles.textB5}>Liên hệ</b>
+            <a className={styles.textA}>Đánh giá</a>
+            <a className={styles.textA1} onClick={onTextLink1Click}>
+              Lịch sử
+            </a>
             <Link
               className={styles.textA2}
               to="/ui02log-in"
               onClick={onTextLink2Click}
             >
-              <b className={styles.textB7}>Lịch sử</b>
+              Thực đơn
             </Link>
-            <Link
-              className={styles.textA3}
-              to="/ui02log-in"
-              onClick={onTextLink3Click}
-            >
-              <b className={styles.textB8}>Thực đơn</b>
-            </Link>
-            <a className={styles.textA4}>
-              <b className={styles.textB9}>Trang chủ</b>
-            </a>
+            <b className={styles.textB6}>Trang chủ</b>
           </div>
           <button
             className={styles.headerShoppingCartButton}
@@ -931,17 +921,17 @@ const UI01HomeSidedish: FunctionComponent = () => {
               <img
                 className={styles.vectorIcon86}
                 alt=""
-                src="../vector107.svg"
+                src="../vector173.svg"
               />
               <img
                 className={styles.vectorIcon87}
                 alt=""
-                src="../vector107.svg"
+                src="../vector173.svg"
               />
               <img
                 className={styles.vectorIcon88}
                 alt=""
-                src="../vector109.svg"
+                src="../vector175.svg"
               />
               <img
                 className={styles.ellipseIcon}
@@ -956,7 +946,7 @@ const UI01HomeSidedish: FunctionComponent = () => {
             onClick={onHeaderSignInButtonClick}
           >
             <button className={styles.button} />
-            <b className={styles.textB10}>Đăng nhập</b>
+            <b className={styles.textB7}>Đăng nhập</b>
           </button>
         </div>
       </div>
