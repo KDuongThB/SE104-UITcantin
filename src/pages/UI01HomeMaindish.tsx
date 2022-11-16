@@ -77,6 +77,10 @@ const UI01HomeMaindish: FunctionComponent = () => {
     navigate("/ui02log-in");
   }, [navigate]);
 
+  const onReccomendationSideDishTabClick = useCallback(() => {
+    navigate("/ui01homesidedish");
+  }, [navigate]);
+
   const onBannerOrderButtonClick = useCallback(() => {
     navigate("/ui02log-in");
   }, [navigate]);
@@ -835,7 +839,10 @@ const UI01HomeMaindish: FunctionComponent = () => {
             <button className={styles.reccomendationMainDishTab}>
               <b className={styles.textB1}>Món chính</b>
             </button>
-            <button className={styles.reccomendationSideDishTab}>
+            <button
+              className={styles.reccomendationSideDishTab}
+              onClick={onReccomendationSideDishTabClick}
+            >
               <b className={styles.textB}>Món phụ</b>
             </button>
           </div>
