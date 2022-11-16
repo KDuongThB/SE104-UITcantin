@@ -11,20 +11,19 @@ const UI03Register: FunctionComponent = () => {
 
   return (
     <div className={styles.uI03RegisterDiv}>
-      <img className={styles.vectorIcon} alt="" src="../vector23.svg" />
-      <img className={styles.vectorIcon1} alt="" src="../vector24.svg" />
+      <img className={styles.vectorIcon} alt="" src="../vector162.svg" />
+      <img className={styles.vectorIcon1} alt="" src="../vector163.svg" />
       <div className={styles.footerSectionDiv}>
-        <div className={styles.footerBackgroundDiv} />
-        <div className={styles.footerLogoDiv}>
+        <div className={styles.footerLogoContainer}>
           <div className={styles.canteenUITDiv}>Canteen UIT</div>
           <img
-            className={styles.logoUit1Icon}
+            className={styles.footerLogoImage}
             alt=""
-            src="../logouit-1@2x.png"
+            src="../footer-logo-image@2x.png"
           />
         </div>
       </div>
-      <form className={styles.signUpSectionForm}>
+      <div className={styles.signUpSectionDiv}>
         <div className={styles.signUpFormDiv}>
           <button className={styles.signUpButton}>
             <button className={styles.button} />
@@ -35,9 +34,9 @@ const UI03Register: FunctionComponent = () => {
             <b className={styles.textB}>Đăng nhập</b>
           </button>
           <div className={styles.textDiv}>
-            <img className={styles.vectorIcon2} alt="" src="../vector25.svg" />
+            <img className={styles.vectorIcon2} alt="" src="../vector164.svg" />
             <b className={styles.textB2}>Đã có tài khoản?</b>
-            <img className={styles.vectorIcon3} alt="" src="../vector26.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector165.svg" />
           </div>
           <input
             className={styles.frameInput}
@@ -52,11 +51,10 @@ const UI03Register: FunctionComponent = () => {
             placeholder="Tên đăng nhập/Email"
             required
           />
+          <b className={styles.signUpFormTitleText}>Đăng ký</b>
         </div>
-        <b className={styles.signUpTitleB}>Đăng ký</b>
-      </form>
+      </div>
       <div className={styles.bannerSectionDiv}>
-        <textarea className={styles.bannerImageTextarea} />
         <div className={styles.bannerTitleDiv}>
           <span className={styles.bannerTitleTxt}>
             <p className={styles.triNghimTMnOnlineTi}>
@@ -67,18 +65,23 @@ const UI03Register: FunctionComponent = () => {
             </p>
           </span>
         </div>
+        <img
+          className={styles.bannerLandingImageImage}
+          alt=""
+          src="../banner-landingimage-image@2x.png"
+        />
       </div>
       <div className={styles.headerSectionDiv}>
         <button className={styles.headerSignInButton}>
           <button className={styles.button} />
           <b className={styles.textB3}>Đăng nhập</b>
         </button>
-        <Link className={styles.headerLogoButton} to="/">
+        <Link className={styles.headerLogoContainer} to="/">
           <div className={styles.canteenUITDiv}>Canteen UIT</div>
           <img
-            className={styles.logoUit1Icon}
+            className={styles.footerLogoImage}
             alt=""
-            src="../logouit-1@2x.png"
+            src="../footer-logo-image@2x.png"
           />
         </Link>
         <div className={styles.headerNavigationBar}>
@@ -101,9 +104,9 @@ const UI03Register: FunctionComponent = () => {
         <div className={styles.headerShoppingCartButton}>
           <img className={styles.vectorIcon4} alt="" />
           <div className={styles.shoppingDiv}>
-            <img className={styles.vectorIcon5} alt="" src="../vector27.svg" />
-            <img className={styles.vectorIcon6} alt="" src="../vector27.svg" />
-            <img className={styles.vectorIcon7} alt="" src="../vector29.svg" />
+            <img className={styles.vectorIcon5} alt="" src="../vector107.svg" />
+            <img className={styles.vectorIcon6} alt="" src="../vector107.svg" />
+            <img className={styles.vectorIcon7} alt="" src="../vector109.svg" />
             <img className={styles.ellipseIcon} alt="" src="../ellipse1.svg" />
             <button className={styles.numberButton}>0</button>
           </div>

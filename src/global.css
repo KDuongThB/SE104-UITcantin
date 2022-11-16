@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Praise:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 body {
   margin: 0;
   line-height: normal;
@@ -10,23 +8,20 @@ body {
   /* fonts */
   --font-arial: Arial;
   --font-praise: Praise;
-  --font-rubik: Rubik;
-  --font-poppins: Poppins;
 
   /* font sizes */
   --font-size-3xs: 10px;
-  --font-size-2xs: 13px;
-  --font-size-xs: 14px;
-  --font-size-sm: 15px;
-  --font-size-base: 16px;
-  --font-size-lg: 20px;
-  --font-size-xl: 24px;
-  --font-size-2xl: 28px;
-  --font-size-3xl: 30px;
-  --font-size-4xl: 35px;
-  --font-size-5xl: 48px;
-  --font-size-6xl: 52px;
-  --font-size-7xl: 70px;
+  --font-size-2xs: 14px;
+  --font-size-xs: 15px;
+  --font-size-sm: 16px;
+  --font-size-base: 20px;
+  --font-size-lg: 24px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 30px;
+  --font-size-3xl: 35px;
+  --font-size-4xl: 48px;
+  --font-size-5xl: 52px;
+  --font-size-6xl: 70px;
 
   /* Colors */
   --color-gray-100: #fff9f5;
@@ -34,25 +29,27 @@ body {
   --color-gray-300: #8c8c8c;
   --color-gray-400: #2a69b4;
   --color-gray-500: #3f3f3f;
-  --color-gray-600: #0c1f36;
   --color-white: #fff;
-  --color-brown-100: #de5749;
-  --primary: #f72d57;
-  --color-black: #000;
+  --color-brown: #f72d57;
   --color-teal: #0394e5;
   --color-green: #00b833;
-  --color-blue: #9747ff;
-  --color-orange-100: #ffbd42;
-  --secondary: #f2bc57;
-  --color-orange-300: #e86b1e;
+  --color-red: #fd2925;
+  --color-black: #000;
 
   /* Gaps */
+  --gap-sm: 13px;
   --gap-md: 102px;
+
+  /* Paddings */
+  --padding-xs: 20px;
+  --padding-sm: 61px;
+  --padding-md: 62px;
+  --padding-lg: 63px;
 
   /* border radiuses */
   --br-xs: 0.2px;
   --br-sm: 5px;
   --br-md: 10px;
-  --br-lg: 34px;
+  --br-lg: 26px;
   --br-xl: 37px;
 }

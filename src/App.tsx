@@ -4,15 +4,16 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import UI01Home from "./pages/UI01Home";
+import UI01HomeMaindish from "./pages/UI01HomeMaindish";
+import UI07OrderHistory2 from "./pages/UI07OrderHistory2";
+import UI07OrderHistory1 from "./pages/UI07OrderHistory1";
+import UI06DishesMenu from "./pages/UI06DishesMenu";
+import UI05Profile from "./pages/UI05Profile";
+import UI01HomeUserSidedish from "./pages/UI01HomeUserSidedish";
+import UI01HomeUserMaindish from "./pages/UI01HomeUserMaindish";
 import UI03Register from "./pages/UI03Register";
 import UI02LogIn from "./pages/UI02LogIn";
-import UI07OrderHistory from "./pages/UI07OrderHistory";
-import LoginDropdown from "./pages/LoginDropdown";
-import UI05Profile from "./pages/UI05Profile";
-import UI01HomeUser from "./pages/UI01HomeUser";
-import UI06DishesMenu from "./pages/UI06DishesMenu";
-import UIKitWeb from "./pages/UIKitWeb";
+import UI01HomeSidedish from "./pages/UI01HomeSidedish";
 import { useEffect } from "react";
 
 function App() {
@@ -36,6 +37,30 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/ui07orderhistory2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/ui07orderhistory1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/ui06dishesmenu":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/ui05profile":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/ui01home-usersidedish":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/ui01home-user":
+        title = "";
+        metaDescription = "";
+        break;
       case "/ui03register":
         title = "";
         metaDescription = "";
@@ -44,27 +69,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/ui07orderhistory":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/logindropdown":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui05profile":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui01home-user":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui06dishesmenu":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui-kit-web":
+      case "/ui01homesidedish":
         title = "";
         metaDescription = "";
         break;
@@ -86,23 +91,25 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<UI01Home />} />
+      <Route path="/" element={<UI01HomeMaindish />} />
+
+      <Route path="/ui07orderhistory2" element={<UI07OrderHistory2 />} />
+
+      <Route path="/ui07orderhistory1" element={<UI07OrderHistory1 />} />
+
+      <Route path="/ui06dishesmenu" element={<UI06DishesMenu />} />
+
+      <Route path="/ui05profile" element={<UI05Profile />} />
+
+      <Route path="/ui01home-usersidedish" element={<UI01HomeUserSidedish />} />
+
+      <Route path="/ui01home-user" element={<UI01HomeUserMaindish />} />
 
       <Route path="/ui03register" element={<UI03Register />} />
 
       <Route path="/ui02log-in" element={<UI02LogIn />} />
 
-      <Route path="/ui07orderhistory" element={<UI07OrderHistory />} />
-
-      <Route path="/logindropdown" element={<LoginDropdown />} />
-
-      <Route path="/ui05profile" element={<UI05Profile />} />
-
-      <Route path="/ui01home-user" element={<UI01HomeUser />} />
-
-      <Route path="/ui06dishesmenu" element={<UI06DishesMenu />} />
-
-      <Route path="/ui-kit-web" element={<UIKitWeb />} />
+      <Route path="/ui01homesidedish" element={<UI01HomeSidedish />} />
     </Routes>
   );
 }
