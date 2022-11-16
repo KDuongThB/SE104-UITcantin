@@ -15,8 +15,8 @@ const UI02LogIn: FunctionComponent = () => {
 
   return (
     <div className={styles.uI02LogInDiv}>
-      <img className={styles.vectorIcon} alt="" src="../vector88.svg" />
-      <img className={styles.vectorIcon1} alt="" src="../vector89.svg" />
+      <img className={styles.vectorIcon} alt="" src="../vector176.svg" />
+      <img className={styles.vectorIcon1} alt="" src="../vector177.svg" />
       <div className={styles.footerSectionDiv}>
         <div className={styles.footerLogoContainer}>
           <div className={styles.canteenUITDiv}>Canteen UIT</div>
@@ -66,8 +66,8 @@ const UI02LogIn: FunctionComponent = () => {
           </button>
           <b className={styles.forgotPasswordLinkB}>Quên mật khẩu?</b>
           <div className={styles.textDiv}>
-            <img className={styles.vectorIcon2} alt="" src="../vector90.svg" />
-            <img className={styles.vectorIcon3} alt="" src="../vector91.svg" />
+            <img className={styles.vectorIcon2} alt="" src="../vector178.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector179.svg" />
             <b className={styles.textB2}>Chưa có tài khoản?</b>
           </div>
           <b className={styles.loginFormTitleText}>Đăng nhập</b>
@@ -94,10 +94,10 @@ const UI02LogIn: FunctionComponent = () => {
         <div className={styles.headerShoppingCartButton}>
           <img className={styles.vectorIcon4} alt="" />
           <div className={styles.shoppingDiv}>
-            <img className={styles.vectorIcon5} alt="" src="../vector85.svg" />
-            <img className={styles.vectorIcon6} alt="" src="../vector85.svg" />
-            <img className={styles.vectorIcon7} alt="" src="../vector87.svg" />
-            <img className={styles.ellipseIcon} alt="" src="../ellipse.svg" />
+            <img className={styles.vectorIcon5} alt="" src="../vector180.svg" />
+            <img className={styles.vectorIcon6} alt="" src="../vector180.svg" />
+            <img className={styles.vectorIcon7} alt="" src="../vector182.svg" />
+            <img className={styles.ellipseIcon} alt="" src="../ellipse2.svg" />
             <b className={styles.number}>0</b>
           </div>
         </div>

@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Praise:wght@400&display=swap");
-@font-face {
-  font-family: "Arial";
-  src: url("../public/arial.ttf");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Arial";
-  src: url("../public/FontsFree-Net-arial-bold.ttf");
-  font-weight: 700;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap");
 body {
   margin: 0;
   line-height: normal;
