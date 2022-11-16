@@ -1,4 +1,4 @@
-# Bentilzone Online Restaurant App
+# UIT Cateen Online App
 
 ## STACK USED
 - ReactJS (Typescript)
