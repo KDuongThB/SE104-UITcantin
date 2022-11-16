@@ -1,1 +1,93 @@
+.trnThMQuyn {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 247px;
+  height: 56px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fluenteditSettings24RegulaIcon {
+  position: absolute;
+  top: 3px;
+  left: 82px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.groupDiv,
+.groupDiv1,
+.hSB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+}
+.hSB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 63.91px;
+}
+.groupDiv,
+.groupDiv1 {
+  width: 106px;
+}
+.groupDiv {
+  top: 60px;
+  left: 42px;
+  cursor: pointer;
+}
+.lucidelogOutIcon {
+  position: absolute;
+  top: 6px;
+  left: 123px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.groupDiv2,
+.ngXutB {
+  position: absolute;
+  height: 36px;
+}
+.ngXutB {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 105px;
+}
+.groupDiv2 {
+  top: 90px;
+  left: 42px;
+  width: 147px;
+  cursor: pointer;
+}
+.lineDiv {
+  position: absolute;
+  top: 49.5px;
+  left: -1.5px;
+  border-top: 3px solid var(--primary);
+  box-sizing: border-box;
+  width: 273px;
+  height: 3px;
+}
+.loginDropdownDiv {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  border: 3px solid var(--primary);
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--primary);
+  font-family: var(--font-arial);
+}
 
