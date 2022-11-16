@@ -1,106 +1,139 @@
-import { FunctionComponent, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { FunctionComponent, useState, useCallback } from "react";
+import LoginDropdown from "../components/LoginDropdown";
+import PortalPopup from "../components/PortalPopup";
 import styles from "./UI05Profile.module.css";
 
 const UI05Profile: FunctionComponent = () => {
-  const navigate = useNavigate();
+  const [isLoginDropdownPopupOpen, setLoginDropdownPopupOpen] = useState(false);
 
-  const onTrangChTextClick = useCallback(() => {
-    navigate("/ui01home-user");
-  }, [navigate]);
+  const openLoginDropdownPopup = useCallback(() => {
+    setLoginDropdownPopupOpen(true);
+  }, []);
 
-  const onLchSTextClick = useCallback(() => {
-    navigate("/ui07orderhistory");
-  }, [navigate]);
-
-  const onThcNTextClick = useCallback(() => {
-    navigate("/ui06dishesmenu");
-  }, [navigate]);
+  const closeLoginDropdownPopup = useCallback(() => {
+    setLoginDropdownPopupOpen(false);
+  }, []);
 
   return (
-    <div className={styles.uI05ProfileDiv}>
-      <div className={styles.footerDiv}>
-        <div className={styles.rectangleDiv} />
-        <div className={styles.logoDiv}>
-          <div className={styles.canteenUITDiv}>Canteen UIT</div>
-          <img
-            className={styles.logoUit1Icon}
-            alt=""
-            src="../logouit-1@2x.png"
-          />
-        </div>
-      </div>
-      <img className={styles.vectorIcon} alt="" src="../vector38.svg" />
-      <div className={styles.groupDiv}>
-        <div className={styles.headerDiv}>
-          <div className={styles.rectangleDiv1} />
-          <div className={styles.navigationDiv}>
-            <b className={styles.trangChB} onClick={onTrangChTextClick}>
-              Trang chủ
-            </b>
-            <b className={styles.lchSB} onClick={onLchSTextClick}>
-              Lịch sử
-            </b>
-            <b className={styles.nhGiB}>Đánh giá</b>
-            <b className={styles.linHB}>Liên hệ</b>
-            <b className={styles.thcNB} onClick={onThcNTextClick}>
-              Thực đơn
-            </b>
-          </div>
-          <div className={styles.shoppingCartDiv}>
-            <img
-              className={styles.shoppingIcon}
-              alt=""
-              src="../shopping1.svg"
-            />
-            <img
-              className={styles.ellipseIcon}
-              alt=""
-              src="../ellipse-161.svg"
-            />
-            <b className={styles.b}>0</b>
-          </div>
-          <div className={styles.logoDiv1}>
+    <>
+      <div className={styles.uI05ProfileDiv}>
+        <img className={styles.vectorIcon} alt="" src="../vector103.svg" />
+        <img className={styles.vectorIcon1} alt="" src="../vector104.svg" />
+        <div className={styles.footerSectionDiv}>
+          <div className={styles.footerLogoContainer}>
             <div className={styles.canteenUITDiv}>Canteen UIT</div>
             <img
-              className={styles.logoUit1Icon}
+              className={styles.footerLogoImage}
               alt=""
-              src="../logouit-1@2x.png"
+              src="../footer-logo-image@2x.png"
             />
           </div>
         </div>
-        <img className={styles.groupIcon} alt="" src="../group-32221.svg" />
-      </div>
-      <div className={styles.groupDiv1}>
-        <div className={styles.rectangleDiv2} />
-        <div className={styles.saveDiv}>
-          <div className={styles.buttonDiv} />
-          <b className={styles.saveB}>Lưu thay đổi</b>
+        <div className={styles.profileSectionDiv}>
+          <div className={styles.proFileFormDiv}>
+            <div className={styles.vectorDiv} />
+            <div className={styles.saveDiv}>
+              <div className={styles.buttonDiv} />
+              <b className={styles.textB}>Lưu thay đổi</b>
+            </div>
+            <img
+              className={styles.oouiuserAvatarIcon}
+              alt=""
+              src="../oouiuseravatar.svg"
+            />
+            <div className={styles.userNameDiv}>{`Họ và tên `}</div>
+            <img className={styles.vectorIcon2} alt="" src="../vector105.svg" />
+            <div className={styles.numberDiv}>Số điện thoại</div>
+            <img className={styles.vectorIcon3} alt="" src="../vector106.svg" />
+            <img className={styles.bxsphoneIcon} alt="" src="../bxsphone.svg" />
+            <div className={styles.boxDiv} />
+            <img
+              className={styles.bxscloudUploadIcon}
+              alt=""
+              src="../bxscloudupload.svg"
+            />
+            <b className={styles.textB1}>Nhấp vào đây để tải ảnh</b>
+            <div className={styles.textDiv}>
+              PNG, JPG hoặc GIF (Tối đa 800x400px)
+            </div>
+          </div>
+          <div className={styles.profileTitleText}>
+            <b className={styles.textB2}>Hồ sơ người dùng</b>
+          </div>
         </div>
-        <img
-          className={styles.oouiuserAvatarIcon}
-          alt=""
-          src="../oouiuseravatar.svg"
-        />
-        <div className={styles.hVTn}>{`Họ và tên `}</div>
-        <img className={styles.lineIcon} alt="" src="../line-3.svg" />
-        <div className={styles.sInThoi}>Số điện thoại</div>
-        <img className={styles.lineIcon1} alt="" src="../line-31.svg" />
-        <img className={styles.bxsphoneIcon} alt="" src="../bxsphone.svg" />
-        <div className={styles.rectangleDiv3} />
-        <img
-          className={styles.bxscloudUploadIcon}
-          alt=""
-          src="../bxscloudupload.svg"
-        />
-        <b className={styles.nhpVoYTiNh}>Nhấp vào đây để tải ảnh</b>
-        <div className={styles.pNGJPGHocGIFTiA800x}>
-          PNG, JPG hoặc GIF (Tối đa 800x400px)
+        <div className={styles.headerSectionDiv}>
+          <div className={styles.headerLogoContainer}>
+            <div className={styles.canteenUITDiv}>Canteen UIT</div>
+            <img
+              className={styles.footerLogoImage}
+              alt=""
+              src="../footer-logo-image@2x.png"
+            />
+          </div>
+          <div className={styles.headerNavigationBar}>
+            <div className={styles.textDiv1}>
+              <b className={styles.textB3}>Liên hệ</b>
+            </div>
+            <div className={styles.textDiv2}>
+              <b className={styles.textB4}>Đánh giá</b>
+            </div>
+            <div className={styles.textDiv3}>
+              <b className={styles.textB5}>Lịch sử</b>
+            </div>
+            <div className={styles.textDiv4}>
+              <b className={styles.textB6}>Thực đơn</b>
+            </div>
+            <div className={styles.textDiv5}>
+              <b className={styles.textB7}>Trang chủ</b>
+            </div>
+          </div>
+          <div className={styles.shoppingCartDiv}>
+            <img className={styles.vectorIcon4} alt="" />
+            <div className={styles.shoppingDiv}>
+              <img
+                className={styles.vectorIcon5}
+                alt=""
+                src="../vector107.svg"
+              />
+              <img
+                className={styles.vectorIcon6}
+                alt=""
+                src="../vector107.svg"
+              />
+              <img
+                className={styles.vectorIcon7}
+                alt=""
+                src="../vector109.svg"
+              />
+              <img
+                className={styles.ellipseIcon}
+                alt=""
+                src="../ellipse1.svg"
+              />
+              <b className={styles.number}>0</b>
+            </div>
+          </div>
+          <div className={styles.headerProfileDropdown}>
+            <img
+              className={styles.dashiconsarrowLeft}
+              alt=""
+              src="../dashiconsarrowleft.svg"
+              onClick={openLoginDropdownPopup}
+            />
+            <img className={styles.avatarIcon} alt="" src="../avatar2.svg" />
+          </div>
         </div>
       </div>
-      <b className={styles.hSNgiDng}>Hồ sơ người dùng</b>
-      <img className={styles.vectorIcon1} alt="" src="../vector39.svg" />
-    </div>
+      {isLoginDropdownPopupOpen && (
+        <PortalPopup
+          overlayColor="rgba(113, 113, 113, 0.3)"
+          placement="Centered"
+          onOutsideClick={closeLoginDropdownPopup}
+        >
+          <LoginDropdown onClose={closeLoginDropdownPopup} />
+        </PortalPopup>
+      )}
+    </>
   );
 };
 

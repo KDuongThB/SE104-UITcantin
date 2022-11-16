@@ -1,0 +1,89 @@
+.userNameB {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 247px;
+  height: 56px;
+}
+.fluenteditSettings24RegulaIcon {
+  position: absolute;
+  top: 3px;
+  left: 82px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.profileDiv,
+.textB {
+  position: absolute;
+  height: 30px;
+}
+.textB {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 63.91px;
+}
+.profileDiv {
+  top: 60px;
+  left: 42px;
+  width: 106px;
+  cursor: pointer;
+}
+.lucidelogOutIcon {
+  position: absolute;
+  top: 6px;
+  left: 123px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.logoutDiv,
+.textB1 {
+  position: absolute;
+  height: 36px;
+}
+.textB1 {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 105px;
+}
+.logoutDiv {
+  top: 90px;
+  left: 42px;
+  width: 147px;
+  cursor: pointer;
+}
+.vectorDiv {
+  position: absolute;
+  top: 49.5px;
+  left: -1.5px;
+  border-top: 3px solid var(--color-red);
+  box-sizing: border-box;
+  width: 273px;
+  height: 3px;
+}
+.loginDropdownDiv {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-red);
+  box-sizing: border-box;
+  width: 276px;
+  height: 156px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-brown);
+  font-family: var(--font-arial);
+}

@@ -1,3 +1,20 @@
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+.canteenUITDiv,
 .vectorIcon,
 .vectorIcon1 {
   position: absolute;
@@ -6,79 +23,21 @@
   width: 486px;
   height: 706px;
 }
+.canteenUITDiv,
 .vectorIcon1 {
   top: 0;
   left: 1059px;
   height: 519px;
 }
-.bannerLandingImage {
-  border: 0;
-  background-color: var(--color-gray-200);
-  position: absolute;
-  top: 231px;
-  left: 542px;
-  border-radius: var(--br-xl);
-  width: 542px;
-  height: 420px;
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-}
-.triNghimTMnOnlineTi {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.canteenUITP {
-  margin: 0;
-  font-size: var(--font-size-7xl);
-  color: var(--primary);
-  font-family: var(--font-praise);
-}
-.bannerTitleTxt {
-  line-break: anywhere;
-  width: 100%;
-}
-.bannerTitleDiv {
-  position: absolute;
-  top: 0;
-  left: 11px;
-  display: flex;
-  align-items: center;
-  width: 556px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-.bannerDiv {
-  position: absolute;
-  top: 204px;
-  left: 73px;
-  width: 567px;
-  height: 651px;
-  text-align: left;
-  font-size: var(--font-size-6xl);
-  color: var(--color-gray-400);
-}
-.backgroundDiv {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(194, 194, 194, 0.4),
-    rgba(0, 0, 0, 0.4)
-  );
-  width: 1440px;
-  height: 100px;
-}
 .canteenUITDiv {
-  position: absolute;
   height: 100%;
   width: 71.43%;
-  top: 0;
   left: 28.57%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.logoUit1Icon {
+.footerLogoImage {
   position: absolute;
   height: 74.03%;
   width: 24.29%;
@@ -91,7 +50,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.footerLogoDiv {
+.footerLogoContainer {
   position: absolute;
   height: 77%;
   width: 19.44%;
@@ -104,13 +63,55 @@
   position: absolute;
   top: 924px;
   left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 194, 194, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
   width: 1440px;
   height: 100px;
+  overflow: hidden;
   font-family: var(--font-praise);
+}
+.triNghimTMnOnlineTi {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.canteenUITP {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+  color: var(--color-brown);
+  font-family: var(--font-praise);
+}
+.bannerTitleTextTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.bannerTitleText {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 556px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bannerLandingImageImage {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 542px;
+  height: 420px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bannerDiv {
+  height: 651px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .frameInput,
 .frameInput1 {
-  border: 3px solid var(--primary);
+  border: 3px solid var(--color-brown);
   background-color: transparent;
   left: 0;
   border-radius: var(--br-sm);
@@ -121,10 +122,10 @@
 }
 .frameInput {
   position: absolute;
-  top: 85px;
+  top: 192px;
 }
 .frameInput1 {
-  top: 0;
+  top: 107px;
 }
 .button,
 .frameInput1,
@@ -135,7 +136,7 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: var(--primary);
+  background-color: var(--color-brown);
   height: 100%;
   width: 100%;
   top: 0;
@@ -149,7 +150,7 @@
   width: 60%;
   top: 20%;
   left: 20%;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   display: flex;
   font-family: var(--font-arial);
   color: var(--color-white);
@@ -161,22 +162,26 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: var(--primary);
+  background-color: var(--color-brown);
   position: absolute;
-  top: 182px;
+  top: 289px;
   left: 0;
   width: 373px;
   height: 60px;
 }
+.signInButton:hover {
+  animation: 1s ease 0s infinite normal forwards shadow-pop-tr;
+  opacity: 1;
+}
+.signInButton:active {
+  animation: 1s ease 0s infinite reverse backwards shadow-pop-tr;
+  opacity: 1;
+}
 .forgotPasswordLinkB {
   position: absolute;
-  top: 147px;
+  top: 254px;
   left: 0;
-  font-size: var(--font-size-base);
   display: flex;
-  font-family: var(--font-arial);
-  color: var(--primary);
-  text-align: left;
   align-items: center;
   width: 241px;
   height: 38px;
@@ -197,168 +202,112 @@
   position: absolute;
   top: 0;
   left: 115px;
-  font-size: var(--font-size-base);
   display: inline-block;
-  font-family: var(--font-arial);
-  color: var(--color-black);
-  text-align: left;
 }
-.textDiv {
-  top: 267px;
-  height: 18px;
-}
-.loginFormDiv,
 .signUpButton,
 .textDiv {
   position: absolute;
   left: 0;
   width: 373px;
 }
+.textDiv {
+  top: 374px;
+  height: 18px;
+  color: var(--color-black);
+}
 .signUpButton {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 303px;
+  top: 410px;
   height: 60px;
 }
-.loginFormDiv {
-  top: 107px;
-  height: 363px;
+.signUpButton:hover {
+  animation: 1s ease 0s infinite normal forwards shadow-pop-tr;
+  opacity: 1;
 }
-.loginTitleText {
+.signUpButton:active {
+  animation: 1s ease 0s infinite normal backwards shadow-pop-tr;
+  opacity: 1;
+}
+.loginFormTitleText {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-4xl);
   display: flex;
-  font-family: var(--font-arial);
   color: var(--color-gray-500);
-  text-align: left;
   align-items: center;
   width: 261px;
 }
-.loginSectionForm,
-.textB3 {
-  position: absolute;
-  top: 199px;
-  left: 871px;
+.loginFormDiv {
+  position: relative;
   width: 373px;
   height: 470px;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-brown);
 }
-.textB3 {
-  height: 58.82%;
-  width: 78.57%;
-  top: 20.59%;
-  left: 10.71%;
-  font-size: var(--font-size-base);
-  display: flex;
-  font-family: var(--font-arial);
-  color: var(--color-white);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.headerSignInButton {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
+.loginSectionDiv {
   position: absolute;
-  top: 48px;
-  left: 1241px;
-  width: 140px;
-  height: 34px;
+  top: 127px;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  padding: 70px 73px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-400);
 }
-.headerLogo {
+.headerLogoContainer {
   cursor: pointer;
   text-decoration: none;
-  position: absolute;
-  height: 60.63%;
-  width: 19.44%;
-  top: 19.69%;
-  right: 76.11%;
-  bottom: 19.69%;
-  left: 4.44%;
+  position: relative;
+  width: 280px;
+  height: 77px;
+  flex-shrink: 0;
   color: inherit;
   font-family: var(--font-praise);
 }
-.textB4 {
-  position: absolute;
-  top: 13.33%;
-  left: -36.59%;
-  display: inline-block;
-}
-.textDiv1 {
-  position: absolute;
-  top: 0;
-  left: 500px;
-  width: 41px;
-  height: 30px;
-}
-.textB5 {
-  position: absolute;
-  top: 13.33%;
-  left: -53.66%;
-  display: inline-block;
-}
-.textDiv2 {
-  position: absolute;
-  top: 0;
-  left: 375px;
-  width: 41px;
-  height: 30px;
-}
-.textB6 {
-  position: absolute;
-  top: 13.33%;
-  left: -39.02%;
-  display: inline-block;
-}
-.textDiv3 {
-  position: absolute;
-  top: 0;
-  left: 250px;
-  width: 41px;
-  height: 30px;
-}
+.textB3,
+.textB4,
+.textB5,
+.textB6,
 .textB7 {
   position: absolute;
-  top: 13.33%;
-  left: -65.85%;
+  top: 0;
+  left: 87.84%;
   display: inline-block;
 }
-.textDiv4 {
-  position: absolute;
-  top: 0;
-  left: 125px;
-  width: 41px;
-  height: 30px;
+.textB4,
+.textB5,
+.textB6,
+.textB7 {
+  left: 65.24%;
 }
-.textB8 {
-  position: absolute;
-  top: 13.33%;
-  left: -68.29%;
-  display: inline-block;
+.textB5,
+.textB6,
+.textB7 {
+  left: 44.86%;
 }
-.headerNavigationBar,
-.textA {
-  position: absolute;
-  height: 30px;
+.textB6,
+.textB7 {
+  left: 21.58%;
 }
-.textA {
-  cursor: pointer;
-  text-decoration: none;
-  top: 0;
+.textB7 {
   left: 0;
-  width: 41px;
-  color: inherit;
 }
 .headerNavigationBar {
-  top: 48px;
-  left: 500px;
-  width: 541px;
-  font-size: var(--font-size-lg);
+  position: relative;
+  width: 584px;
+  height: 23px;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
   color: var(--color-gray-500);
 }
 .vectorIcon4,
@@ -432,23 +381,50 @@
   left: 8%;
 }
 .headerShoppingCartButton {
-  position: absolute;
-  top: 42px;
-  left: 1108px;
+  position: relative;
   width: 50px;
   height: 43px;
+  flex-shrink: 0;
   overflow: hidden;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--color-white);
+}
+.textB8 {
+  position: absolute;
+  height: 58.82%;
+  width: 78.57%;
+  top: 20.59%;
+  left: 10.71%;
+  font-size: var(--font-size-sm);
+  display: flex;
+  font-family: var(--font-arial);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.headerSignInButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 140px;
+  height: 34px;
+  flex-shrink: 0;
 }
 .headerSectionDiv {
   position: absolute;
   top: 0;
   left: 0;
   background-color: var(--color-white);
-  width: 1440px;
-  height: 127px;
-  overflow: hidden;
+  width: 1436px;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 59px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
 }
 .uI02LogInDiv {
   position: relative;
@@ -457,7 +433,7 @@
   height: 1024px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-5xl);
-  color: var(--primary);
+  font-size: var(--font-size-4xl);
+  color: var(--color-brown);
   font-family: var(--font-arial);
 }
