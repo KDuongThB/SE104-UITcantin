@@ -1,4 +1,5 @@
-{
+
+  {
     "name": "uit-canteen(editing)",
     "version": "0.1.0",
     "private": true,
@@ -39,3 +40,4 @@
       ]
     }
   }
+  

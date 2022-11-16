@@ -5,15 +5,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import UI01HomeMaindish from "./pages/UI01HomeMaindish";
-import UI07OrderHistory2 from "./pages/UI07OrderHistory2";
-import UI07OrderHistory1 from "./pages/UI07OrderHistory1";
-import UI06DishesMenu from "./pages/UI06DishesMenu";
-import UI05Profile from "./pages/UI05Profile";
-import UI01HomeUserSidedish from "./pages/UI01HomeUserSidedish";
-import UI01HomeUserMaindish from "./pages/UI01HomeUserMaindish";
-import UI03Register from "./pages/UI03Register";
 import UI02LogIn from "./pages/UI02LogIn";
-import UI01HomeSidedish from "./pages/UI01HomeSidedish";
+import UI03Register from "./pages/UI03Register";
 import { useEffect } from "react";
 
 function App() {
@@ -37,39 +30,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/ui07orderhistory2":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui07orderhistory1":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui06dishesmenu":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui05profile":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui01home-usersidedish":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui01home-user":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/ui03register":
-        title = "";
-        metaDescription = "";
-        break;
       case "/ui02log-in":
         title = "";
         metaDescription = "";
         break;
-      case "/ui01homesidedish":
+      case "/ui03register":
         title = "";
         metaDescription = "";
         break;
@@ -93,26 +58,10 @@ function App() {
     <Routes>
       <Route path="/" element={<UI01HomeMaindish />} />
 
-      <Route path="/ui07orderhistory2" element={<UI07OrderHistory2 />} />
-
-      <Route path="/ui07orderhistory1" element={<UI07OrderHistory1 />} />
-
-      <Route path="/ui06dishesmenu" element={<UI06DishesMenu />} />
-
-      <Route path="/ui05profile" element={<UI05Profile />} />
-
-      <Route path="/ui01home-usersidedish" element={<UI01HomeUserSidedish />} />
-
-      <Route path="/ui01home-user" element={<UI01HomeUserMaindish />} />
-
-      <Route path="/ui03register" element={<UI03Register />} />
-
       <Route path="/ui02log-in" element={<UI02LogIn />} />
 
-      <Route path="/ui01homesidedish" element={<UI01HomeSidedish />} />
+      <Route path="/ui03register" element={<UI03Register />} />
     </Routes>
   );
 }
 export default App;
-
-

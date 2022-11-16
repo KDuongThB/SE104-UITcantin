@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Praise:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap");
+@font-face {
+  font-family: "Arial";
+  src: url("../public/arial.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Arial";
+  src: url("../public/FontsFree-Net-arial-bold.ttf");
+  font-weight: 700;
+}
+
 body {
   margin: 0;
   line-height: normal;
@@ -31,10 +41,10 @@ body {
   --color-gray-500: #3f3f3f;
   --color-white: #fff;
   --color-brown: #f72d57;
+  --color-black: #000;
   --color-teal: #0394e5;
   --color-green: #00b833;
   --color-red: #fd2925;
-  --color-black: #000;
 
   /* Gaps */
   --gap-sm: 13px;
@@ -45,6 +55,7 @@ body {
   --padding-sm: 61px;
   --padding-md: 62px;
   --padding-lg: 63px;
+  --padding-xl: 70px;
 
   /* border radiuses */
   --br-xs: 0.2px;
@@ -53,4 +64,3 @@ body {
   --br-lg: 26px;
   --br-xl: 37px;
 }
-
