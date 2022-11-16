@@ -1,0 +1,420 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 1476px;
+  height: 170px;
+}
+.trangChB {
+  left: 0;
+  cursor: pointer;
+}
+.lchSB,
+.linHB,
+.nhGiB,
+.thcNB,
+.trangChB {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.lchSB {
+  left: 247px;
+  cursor: pointer;
+}
+.linHB,
+.nhGiB,
+.thcNB {
+  left: 358px;
+}
+.linHB,
+.thcNB {
+  left: 482px;
+}
+.thcNB {
+  left: 21.52%;
+  color: var(--primary);
+}
+.navigationDiv,
+.shoppingIcon {
+  position: absolute;
+  top: 95px;
+  left: 498px;
+  width: 553px;
+  height: 23px;
+}
+.shoppingIcon {
+  top: 1px;
+  left: 0;
+  width: 43px;
+  height: 43px;
+  overflow: hidden;
+}
+.b,
+.ellipseIcon {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 15px;
+  height: 15px;
+}
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shoppingCartDiv {
+  position: absolute;
+  top: 85px;
+  left: 1140px;
+  width: 45px;
+  height: 44px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.canteenUITDiv,
+.groupIcon {
+  position: absolute;
+  top: 89px;
+  left: 1325px;
+  width: 53px;
+  height: 35px;
+}
+.canteenUITDiv {
+  height: 100%;
+  width: 71.43%;
+  top: 0;
+  left: 28.57%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoUit1Icon {
+  position: absolute;
+  height: 74.03%;
+  width: 24.29%;
+  top: 12.99%;
+  right: 75.71%;
+  bottom: 12.99%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoDiv {
+  position: absolute;
+  height: 45.29%;
+  width: 18.97%;
+  top: 40%;
+  right: 74.53%;
+  bottom: 14.71%;
+  left: 6.5%;
+  font-size: var(--font-size-5xl);
+  color: var(--primary);
+  font-family: var(--font-praise);
+}
+.headerDiv {
+  position: absolute;
+  top: -43px;
+  left: -32px;
+  width: 1476px;
+  height: 170px;
+  font-size: var(--font-size-lg);
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 433px;
+  left: 0;
+  width: 486px;
+  height: 706px;
+}
+.vectorIcon1 {
+  top: 1214px;
+  left: 1058px;
+}
+.hmNaySpan {
+  color: var(--primary);
+}
+.thcNHmContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.buttonDiv,
+.thcNHmNay {
+  position: absolute;
+  top: 0;
+}
+.thcNHmNay {
+  left: 440px;
+  display: flex;
+  align-items: center;
+  width: 463px;
+  height: 58.98px;
+}
+.buttonDiv {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.textB {
+  position: absolute;
+  top: 24.81%;
+  left: 32.33%;
+  display: inline-block;
+}
+.buttonDiv1,
+.sideDishDiv {
+  position: absolute;
+  top: 0;
+  left: 312px;
+  width: 300px;
+  height: 70.45px;
+}
+.buttonDiv1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.textB1 {
+  position: absolute;
+  top: 24.81%;
+  left: 29%;
+  display: inline-block;
+}
+.groupDiv,
+.mainDishDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 70.45px;
+  color: var(--color-white);
+}
+.groupDiv {
+  top: 131px;
+  width: 612px;
+  font-size: var(--font-size-3xl);
+  color: var(--primary);
+}
+.lineDiv {
+  position: absolute;
+  top: 65.5px;
+  left: 512.5px;
+  border-top: 5px solid var(--primary);
+  box-sizing: border-box;
+  width: 318px;
+  height: 5px;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1329px;
+  height: 1080px;
+}
+.rectangleDiv2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background: linear-gradient(
+    180deg,
+    rgba(42, 105, 180, 0.5),
+    rgba(247, 45, 87, 0.5)
+  );
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  height: 266px;
+}
+.vectorIcon2 {
+  top: 0;
+  left: 0;
+  width: 26px;
+  height: 37.69px;
+}
+.b1,
+.groupDiv3,
+.vectorIcon2 {
+  position: absolute;
+}
+.b1 {
+  top: 15.28px;
+  left: 9px;
+  display: inline-block;
+  width: 7px;
+  height: 15.28px;
+}
+.groupDiv3 {
+  top: 0;
+  left: 254px;
+  width: 26px;
+  height: 37.69px;
+}
+.groupDiv4,
+.nameB {
+  position: absolute;
+  width: 80px;
+  height: 24px;
+}
+.nameB {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.groupDiv4 {
+  top: 192px;
+  left: 110px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.starDiv {
+  position: absolute;
+  top: 2.04px;
+  left: 261px;
+  border-radius: var(--br-xs);
+  background: linear-gradient(90deg, #000 99.99%, rgba(217, 217, 217, 0));
+  width: 12px;
+  height: 12.23px;
+}
+.rectangleDiv3 {
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  background-color: var(--color-gray-200);
+  width: 190px;
+  height: 130px;
+}
+.cartAddIcon {
+  position: absolute;
+  height: 16.17%;
+  width: 14.33%;
+  top: 81.2%;
+  right: 5.67%;
+  bottom: 2.63%;
+  left: 80%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupDiv2,
+.groupDiv5,
+.groupDiv8 {
+  position: absolute;
+  top: 56px;
+  left: 934px;
+  width: 300px;
+  height: 266px;
+}
+.groupDiv5,
+.groupDiv8 {
+  left: 514px;
+}
+.groupDiv8 {
+  left: 94px;
+}
+.groupDiv11,
+.groupDiv14,
+.groupDiv17,
+.groupDiv20,
+.groupDiv23 {
+  position: absolute;
+  top: 399px;
+  left: 934px;
+  width: 300px;
+  height: 266px;
+}
+.groupDiv14,
+.groupDiv17,
+.groupDiv20,
+.groupDiv23 {
+  left: 514px;
+}
+.groupDiv17,
+.groupDiv20,
+.groupDiv23 {
+  left: 94px;
+}
+.groupDiv20,
+.groupDiv23 {
+  top: 742px;
+  left: 790px;
+}
+.groupDiv23 {
+  left: 239px;
+}
+.groupDiv1,
+.menuDiv {
+  position: absolute;
+  width: 1329px;
+}
+.groupDiv1 {
+  top: 237px;
+  left: 0;
+  height: 1080px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.menuDiv {
+  top: 216px;
+  left: 56px;
+  height: 1317px;
+  text-align: left;
+}
+.rectangleDiv18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 194, 194, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
+  width: 1440px;
+  height: 100px;
+}
+.logoDiv1 {
+  position: absolute;
+  height: 77%;
+  width: 19.44%;
+  top: 11%;
+  right: 75.76%;
+  bottom: 12%;
+  left: 4.79%;
+}
+.footerDiv {
+  position: absolute;
+  top: 1942px;
+  left: 0;
+  width: 1440px;
+  height: 100px;
+  color: var(--primary);
+  font-family: var(--font-praise);
+}
+.uI06DishesMenuDiv {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 2042px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-arial);
+}
