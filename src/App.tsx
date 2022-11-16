@@ -5,8 +5,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import UI01HomeMaindish from "./pages/UI01HomeMaindish";
-import UI02LogIn from "./pages/UI02LogIn";
 import UI01HomeSidedish from "./pages/UI01HomeSidedish";
+import UI02LogIn from "./pages/UI02LogIn";
 import { useEffect } from "react";
 
 function App() {
@@ -30,11 +30,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/ui02log-in":
+      case "/ui01homesidedish":
         title = "";
         metaDescription = "";
         break;
-      case "/ui01homesidedish":
+      case "/ui02log-in":
         title = "";
         metaDescription = "";
         break;
@@ -58,9 +58,9 @@ function App() {
     <Routes>
       <Route path="/" element={<UI01HomeMaindish />} />
 
-      <Route path="/ui02log-in" element={<UI02LogIn />} />
-
       <Route path="/ui01homesidedish" element={<UI01HomeSidedish />} />
+
+      <Route path="/ui02log-in" element={<UI02LogIn />} />
     </Routes>
   );
 }
