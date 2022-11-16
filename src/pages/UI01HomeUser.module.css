@@ -1,0 +1,619 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 194, 194, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
+  width: 1440px;
+  height: 100px;
+}
+.canteenUITDiv {
+  position: absolute;
+  height: 100%;
+  width: 71.43%;
+  top: 0;
+  left: 28.57%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoUit1Icon {
+  position: absolute;
+  height: 74.03%;
+  width: 24.29%;
+  top: 12.99%;
+  right: 75.71%;
+  bottom: 12.99%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoDiv {
+  position: absolute;
+  height: 77%;
+  width: 19.44%;
+  top: 11%;
+  right: 75.76%;
+  bottom: 12%;
+  left: 4.79%;
+}
+.footerDiv {
+  position: absolute;
+  top: 3225px;
+  left: 0;
+  width: 1440px;
+  height: 100px;
+  text-align: center;
+  color: var(--primary);
+  font-family: var(--font-praise);
+}
+.foodDeliveryIcon {
+  position: absolute;
+  top: 1553px;
+  left: 0;
+  width: 1914px;
+  height: 1761px;
+}
+.choBnSpan {
+  color: var(--primary);
+}
+.xutChoBn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.lineIcon {
+  position: absolute;
+  top: 60.5px;
+  left: 41.5px;
+  width: 305px;
+  height: 5px;
+}
+.xutDiv {
+  top: 0;
+  left: 478px;
+  width: 372px;
+  height: 63px;
+}
+.button,
+.textB,
+.xutDiv {
+  position: absolute;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--primary);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.textB {
+  top: 24.81%;
+  left: 29%;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  font-family: var(--font-arial);
+  color: var(--color-white);
+  text-align: left;
+}
+.mainDishButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 126px;
+  left: 7px;
+  width: 300px;
+  height: 70.45px;
+}
+.buttonInput {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.textB1 {
+  position: absolute;
+  top: 24.81%;
+  left: 32.33%;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  font-family: var(--font-arial);
+  color: var(--primary);
+  text-align: left;
+}
+.sideDishButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 126px;
+  left: 320px;
+  width: 300px;
+  height: 70.45px;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1329px;
+  height: 740px;
+}
+.rectangleDiv2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background: linear-gradient(
+    180deg,
+    rgba(42, 105, 180, 0.5),
+    rgba(247, 45, 87, 0.5)
+  );
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  height: 266px;
+}
+.vectorIcon {
+  top: 0;
+  left: 0;
+  width: 26px;
+  height: 37.69px;
+}
+.b,
+.groupDiv2,
+.vectorIcon {
+  position: absolute;
+}
+.b {
+  top: 15.28px;
+  left: 9px;
+  display: inline-block;
+  width: 7px;
+  height: 15.28px;
+}
+.groupDiv2 {
+  top: 0;
+  left: 254px;
+  width: 26px;
+  height: 37.69px;
+}
+.groupDiv3,
+.nameB {
+  position: absolute;
+  width: 80px;
+  height: 24px;
+}
+.nameB {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.groupDiv3 {
+  top: 192px;
+  left: 110px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.starDiv {
+  position: absolute;
+  top: 2.04px;
+  left: 261px;
+  border-radius: var(--br-xs);
+  background: linear-gradient(90deg, #000 99.99%, rgba(217, 217, 217, 0));
+  width: 12px;
+  height: 12.23px;
+}
+.rectangleDiv3 {
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  background-color: var(--color-gray-200);
+  width: 190px;
+  height: 130px;
+}
+.cartAddIcon {
+  position: absolute;
+  height: 16.17%;
+  width: 14.33%;
+  top: 81.2%;
+  right: 5.67%;
+  bottom: 2.63%;
+  left: 80%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupDiv1,
+.groupDiv4,
+.groupDiv7 {
+  position: absolute;
+  top: 56px;
+  left: 934px;
+  width: 300px;
+  height: 266px;
+}
+.groupDiv4,
+.groupDiv7 {
+  left: 514px;
+}
+.groupDiv7 {
+  left: 94px;
+}
+.groupDiv,
+.groupDiv10,
+.groupDiv13,
+.groupDiv16 {
+  position: absolute;
+  top: 399px;
+  left: 934px;
+  width: 300px;
+  height: 266px;
+}
+.groupDiv,
+.groupDiv13,
+.groupDiv16 {
+  left: 514px;
+}
+.groupDiv,
+.groupDiv16 {
+  left: 94px;
+}
+.groupDiv {
+  top: 259px;
+  left: 0;
+  width: 1329px;
+  height: 740px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.popularCategoriesDiv {
+  position: absolute;
+  top: 807px;
+  left: 55px;
+  width: 1329px;
+  height: 999px;
+}
+.ellipseIcon,
+.rectangleIcon {
+  position: absolute;
+  top: 553px;
+  left: 0;
+  width: 1461px;
+  height: 195px;
+}
+.rectangleIcon {
+  top: 0;
+  width: 1440px;
+  height: 646px;
+}
+.canteenUITP {
+  margin: 0;
+  font-size: var(--font-size-7xl);
+  color: var(--primary);
+  font-family: var(--font-praise);
+}
+.triNghimTContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.triNghimTMnOnlineTi {
+  position: absolute;
+  top: 178px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 530px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-400);
+}
+.textP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.giiThiuDch {
+  margin: 0;
+}
+.introduceDiv {
+  position: absolute;
+  top: 405px;
+  left: 90px;
+  font-size: var(--font-size-lg);
+  display: flex;
+  align-items: center;
+  width: 517px;
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--primary);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+}
+.tMnNgay {
+  position: absolute;
+  height: 60.87%;
+  width: 71.43%;
+  top: 19.57%;
+  left: 15.71%;
+  font-size: var(--font-size-xs);
+  display: flex;
+  font-family: var(--font-arial);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.addToCart {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 624px;
+  left: 167px;
+  width: 140px;
+  height: 34px;
+}
+.rectangleTextarea {
+  border: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 345px;
+  left: 789px;
+  border-radius: 26px;
+  width: 408.7px;
+  height: 335.17px;
+  transform: rotate(-34.32deg);
+  transform-origin: 0 0;
+}
+.trangChB {
+  left: 0;
+  color: var(--primary);
+}
+.lchSB,
+.linHB,
+.nhGiB,
+.thcNB,
+.trangChB {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.lchSB {
+  left: 247px;
+  cursor: pointer;
+}
+.linHB,
+.nhGiB,
+.thcNB {
+  left: 358px;
+}
+.linHB,
+.thcNB {
+  left: 482px;
+}
+.thcNB {
+  left: 21.52%;
+  cursor: pointer;
+}
+.navigationDiv,
+.shoppingIcon {
+  position: absolute;
+  top: 27px;
+  left: 402px;
+  width: 553px;
+  height: 23px;
+}
+.shoppingIcon {
+  top: 1px;
+  left: 0;
+  width: 43px;
+  height: 43px;
+  overflow: hidden;
+}
+.b6,
+.ellipseIcon1 {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 15px;
+  height: 15px;
+}
+.b6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shoppingCartDiv {
+  position: absolute;
+  top: 17px;
+  left: 1044px;
+  width: 45px;
+  height: 44px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.groupIcon,
+.logoDiv1 {
+  position: absolute;
+  top: 21px;
+  left: 1229px;
+  width: 53px;
+  height: 35px;
+}
+.logoDiv1 {
+  height: 100%;
+  width: 21.84%;
+  top: 0;
+  right: 78.16%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--primary);
+  font-family: var(--font-praise);
+}
+.headerDiv {
+  position: absolute;
+  top: 25px;
+  left: 64px;
+  width: 1282px;
+  height: 77px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.buttonDiv,
+.thcNHmNay {
+  position: absolute;
+  top: 0;
+}
+.thcNHmNay {
+  left: 440px;
+  display: flex;
+  align-items: center;
+  width: 463px;
+  height: 58.98px;
+}
+.buttonDiv {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.textB2 {
+  position: absolute;
+  top: 24.81%;
+  left: 32.33%;
+  display: inline-block;
+}
+.buttonDiv1,
+.sideDishDiv {
+  position: absolute;
+  top: 0;
+  left: 312px;
+  width: 300px;
+  height: 70.45px;
+}
+.buttonDiv1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.textB3 {
+  position: absolute;
+  top: 24.81%;
+  left: 29%;
+  display: inline-block;
+}
+.groupDiv19,
+.mainDishDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 70.45px;
+  color: var(--color-white);
+}
+.groupDiv19 {
+  top: 131px;
+  width: 612px;
+  font-size: var(--font-size-3xl);
+  color: var(--primary);
+}
+.lineDiv {
+  position: absolute;
+  top: 65.5px;
+  left: 512.5px;
+  border-top: 5px solid var(--primary);
+  box-sizing: border-box;
+  width: 318px;
+  height: 5px;
+}
+.rectangleDiv14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1329px;
+  height: 1080px;
+}
+.groupDiv39,
+.groupDiv42 {
+  position: absolute;
+  top: 742px;
+  left: 790px;
+  width: 300px;
+  height: 266px;
+}
+.groupDiv42 {
+  left: 239px;
+}
+.groupDiv20,
+.menuDiv {
+  position: absolute;
+  width: 1329px;
+}
+.groupDiv20 {
+  top: 237px;
+  left: 0;
+  height: 1080px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.menuDiv {
+  top: 1873px;
+  left: 55px;
+  height: 1317px;
+}
+.uI01HomeUserDiv {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 3325px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-arial);
+}
