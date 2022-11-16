@@ -9,7 +9,7 @@ const UI03Register: FunctionComponent = () => {
     navigate("/ui02log-in");
   }, [navigate]);
 
-  const onButton2Click = useCallback(() => {
+  const onSignUpButtonClick = useCallback(() => {
     navigate("/ui02log-in");
   }, [navigate]);
 
@@ -19,8 +19,8 @@ const UI03Register: FunctionComponent = () => {
 
   return (
     <div className={styles.uI03RegisterDiv}>
-      <img className={styles.vectorIcon} alt="" src="../vector7.svg" />
-      <img className={styles.vectorIcon1} alt="" src="../vector8.svg" />
+      <img className={styles.vectorIcon} alt="" src="../vector162.svg" />
+      <img className={styles.vectorIcon1} alt="" src="../vector163.svg" />
       <div className={styles.footerSectionDiv}>
         <div className={styles.footerLogoContainer}>
           <div className={styles.canteenUITDiv}>Canteen UIT</div>
@@ -57,10 +57,10 @@ const UI03Register: FunctionComponent = () => {
         <div className={styles.headerShoppingCartButton}>
           <img className={styles.vectorIcon2} alt="" />
           <div className={styles.shoppingDiv}>
-            <img className={styles.vectorIcon3} alt="" src="../vector4.svg" />
-            <img className={styles.vectorIcon4} alt="" src="../vector4.svg" />
-            <img className={styles.vectorIcon5} alt="" src="../vector6.svg" />
-            <img className={styles.ellipseIcon} alt="" src="../ellipse.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector107.svg" />
+            <img className={styles.vectorIcon4} alt="" src="../vector107.svg" />
+            <img className={styles.vectorIcon5} alt="" src="../vector109.svg" />
+            <img className={styles.ellipseIcon} alt="" src="../ellipse1.svg" />
             <button className={styles.numberButton}>0</button>
           </div>
         </div>
@@ -84,18 +84,16 @@ const UI03Register: FunctionComponent = () => {
           />
         </div>
         <div className={styles.signUpFormDiv}>
-          <button className={styles.signUpButton}>
-            <button className={styles.button} />
+          <button className={styles.signUpButton} onClick={onSignUpButtonClick}>
             <b className={styles.textB5}>Đăng ký</b>
           </button>
           <button className={styles.signInButton} onClick={onSignInButtonClick}>
-            <button className={styles.button} onClick={onButton2Click} />
             <b className={styles.textB5}>Đăng nhập</b>
           </button>
           <div className={styles.textDiv}>
-            <img className={styles.vectorIcon6} alt="" src="../vector12.svg" />
+            <img className={styles.vectorIcon6} alt="" src="../vector167.svg" />
             <b className={styles.textB7}>Đã có tài khoản?</b>
-            <img className={styles.vectorIcon7} alt="" src="../vector13.svg" />
+            <img className={styles.vectorIcon7} alt="" src="../vector168.svg" />
           </div>
           <input
             className={styles.frameInput}
