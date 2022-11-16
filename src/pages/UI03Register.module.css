@@ -330,10 +330,11 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: transparent;
+  background-color: var(--color-brown);
   position: absolute;
   top: 295px;
   left: 0;
+  border-radius: var(--br-sm);
   width: 373px;
   height: 60px;
 }
