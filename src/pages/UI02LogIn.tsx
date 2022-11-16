@@ -15,8 +15,8 @@ const UI02LogIn: FunctionComponent = () => {
 
   return (
     <div className={styles.uI02LogInDiv}>
-      <img className={styles.vectorIcon} alt="" src="../vector169.svg" />
-      <img className={styles.vectorIcon1} alt="" src="../vector170.svg" />
+      <img className={styles.vectorIcon} alt="" src="../vector88.svg" />
+      <img className={styles.vectorIcon1} alt="" src="../vector89.svg" />
       <div className={styles.footerSectionDiv}>
         <div className={styles.footerLogoContainer}>
           <div className={styles.canteenUITDiv}>Canteen UIT</div>
@@ -42,38 +42,34 @@ const UI02LogIn: FunctionComponent = () => {
           <img
             className={styles.bannerLandingImageImage}
             alt=""
-            src="../banner-landingimage-image@2x.png"
+            src="../banner-landing-image@2x.png"
           />
         </div>
         <div className={styles.loginFormDiv}>
           <input
             className={styles.frameInput}
             type="text"
-            defaultValue="password"
             placeholder="Mật khẩu"
             required
           />
           <input
             className={styles.frameInput1}
             type="text"
-            defaultValue="username"
             placeholder="Tên đăng nhập/Email"
             required
           />
           <button className={styles.signInButton} onClick={onSignInButtonClick}>
-            <button className={styles.button} />
             <b className={styles.textB}>Đăng nhập</b>
+          </button>
+          <button className={styles.signUpButton} onClick={onSignUpButtonClick}>
+            <b className={styles.textB}>Đăng ký</b>
           </button>
           <b className={styles.forgotPasswordLinkB}>Quên mật khẩu?</b>
           <div className={styles.textDiv}>
-            <img className={styles.vectorIcon2} alt="" src="../vector171.svg" />
-            <img className={styles.vectorIcon3} alt="" src="../vector172.svg" />
-            <b className={styles.textB1}>Chưa có tài khoản?</b>
+            <img className={styles.vectorIcon2} alt="" src="../vector90.svg" />
+            <img className={styles.vectorIcon3} alt="" src="../vector91.svg" />
+            <b className={styles.textB2}>Chưa có tài khoản?</b>
           </div>
-          <button className={styles.signUpButton} onClick={onSignUpButtonClick}>
-            <button className={styles.button} />
-            <b className={styles.textB}>Đăng ký</b>
-          </button>
           <b className={styles.loginFormTitleText}>Đăng nhập</b>
         </div>
       </div>
@@ -91,7 +87,9 @@ const UI02LogIn: FunctionComponent = () => {
           <b className={styles.textB4}>Đánh giá</b>
           <b className={styles.textB5}>Lịch sử</b>
           <b className={styles.textB6}>Thực đơn</b>
-          <b className={styles.textB7}>Trang chủ</b>
+          <Link className={styles.trangCh} to="/">
+            Trang chủ
+          </Link>
         </div>
         <div className={styles.headerShoppingCartButton}>
           <img className={styles.vectorIcon4} alt="" />
@@ -105,7 +103,7 @@ const UI02LogIn: FunctionComponent = () => {
         </div>
         <button className={styles.headerSignInButton}>
           <button className={styles.button} />
-          <b className={styles.textB8}>Đăng nhập</b>
+          <b className={styles.textB7}>Đăng nhập</b>
         </button>
       </div>
     </div>
